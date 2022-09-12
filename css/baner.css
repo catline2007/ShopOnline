@@ -1,0 +1,126 @@
+.baner__bg {
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 480px;
+    border-radius: 20px;
+    color: var(--bg-color, #FFFFFF);
+    padding: 145px 112px 40px 112px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.baner__heading {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 91px;
+
+}
+
+.baner__timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.baner__timer_text-s {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20.8px;
+}
+
+.baner__timer_text-m {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 41.6px;
+}
+
+.baner__timer_text-l {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 78px;
+}
+
+.baner__timer_container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+@media (max-width: 1300px) {
+
+    .baner__bg {
+        border-radius: 16px;
+        padding-top: 80px;
+        padding-bottom: 36px;
+        margin-bottom: 50px;
+        background-image: url('../img/banner_1024.jpg');
+        background-position: center;
+        min-height: 340px;
+    }
+
+    .baner__heading {
+        font-size: 40px;
+        line-height: 52px;
+    }
+
+    .baner__timer {
+
+    }
+    
+    .baner__timer_text-m {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 20.6px;
+    }
+    
+    .baner__timer_text-l {
+        font-size: 40px;
+        line-height: 52px;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    .baner__bg {
+        border-radius: 8px;
+        padding: 50px 20px 30px 20px;
+        margin-bottom: 20px;
+        background-image: url('../img/banner_1024.jpg');
+        height: 340px;
+    }
+
+    .baner__heading {
+        font-size: 22px;
+        line-height: 28.5px;
+        text-align: center;
+    }
+
+    .baner__timer {
+        height: 42px;
+    }
+    
+    .baner__timer_text-s {
+        font-size: 8px;
+        line-height: 10.5px;
+    }
+
+    .baner__timer_text-m {
+        font-size: 12px;
+        line-height: 15.5px;
+    }
+    
+    .baner__timer_text-l {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .baner__timer_container {
+        gap: 8px;
+    }
+
+}

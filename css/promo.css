@@ -1,0 +1,514 @@
+.promo__container {
+    display: grid;
+    grid-template-columns: 245px 245px 245px 245px 245px 245px;
+    grid-template-rows: 228px 228px 228px 228px;
+    align-items: center;
+    gap: 60px;
+    color: var(--bg-color, #FFFFFF);
+}
+
+.sale-round {
+    display: block;
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    background-color: var(--promo-round-color, #FFBD13);
+}
+
+.promo__book {
+    background-image: url(../img/book.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 80px 35px 20px 20px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.promo__book-big {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+}
+
+.promo__time {
+    background-image: url(../img/time.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 67px 20px 20px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: flex-end;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+}
+
+.promo__shoes {
+    background-image: url(../img/shoes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    grid-row: 1/3;
+    grid-column: 3/5;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+
+}
+
+.promo__shoes-blue-bg {
+    padding: 24px 26px;
+    background-color: var(--promo-blue-color, #38C0EB);
+    border-radius: 20px;
+}
+
+.promo__shoes-big {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 67px;
+}
+
+
+.promo__gifts {
+    background-image: url(../img/gifts.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    grid-row: 1/2;
+    grid-column: 5/7;
+    padding: 30px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.promo__boot {
+    background-image: url(../img/boot.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    grid-row: 2/3;
+    grid-column: 1/3;
+    padding: 20px;
+}
+
+.promo__tv {
+    background-image: url(../img/tv.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    grid-row: 2/3;
+    grid-column: 5/7;
+    padding: 30px 20px 20px 30px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.promo__tv_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.promo__2022 {
+    background-image: url(../img/2022.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    grid-row: 3/5;
+    grid-column: 1/5;
+    padding: 50px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: var(--promo-pink-color, #F91155);
+    display: flex;
+}
+
+.promo__2022-white_bg {
+    padding: 30px 40px;
+    background-color: var(--bg-color, #FFFFFF);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+}
+
+.promo__dress {
+    background-image: url(../img/dress.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    grid-row: 3/5;
+    grid-column: 5/6;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.promo__home {
+    background-image: url(../img/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    grid-row: 3/4;
+    grid-column: 6/7;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    
+}
+
+.promo__toys {
+    background-image: url(../img/toys.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    grid-row: 4/5;
+    grid-column: 6/7;
+}
+
+@media (max-width: 1800px) {
+    .promo__container {
+        grid-template-columns: 217px 217px 206px 210px;
+        grid-template-rows: 202px 202px 202px 202px 202px 202px;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .promo__book {
+        border-radius: 16px;
+        font-weight: 400px;
+        font-size: 24px;
+        line-height: 31.2px;
+        padding: 13px;
+    }
+
+    .promo__time {
+        padding: 54px 10px 10px 10px;
+        border-radius: 16px;
+        font-size: 24px;
+        line-height: 31.2px;
+    }
+
+    .promo__shoes {
+        border-radius: 16px;
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .promo__shoes-big {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .promo__shoes-blue-bg {
+        padding: 28px 26px;
+        background-color: var(--promo-blue-color, #38C0EB);
+        border-radius: 20px;
+    }
+
+    .promo__boot {
+        border-radius: 16px;
+    }
+
+    .promo__gifts {
+        grid-row: 3/4;
+        grid-column: 1/3;
+        border-radius: 16px;
+        font-size: 30px;
+        line-height: 39px;
+    }
+
+    .promo__tv {
+        grid-row: 4/5;
+        grid-column: 1/3;
+        border-radius: 16px;
+        font-size: 30px;
+        line-height: 39px;
+    }
+
+    .promo__2022 {
+        grid-row: 5/7;
+        grid-column: 1/5;
+        padding: 50px;
+        border-radius: 16px;
+        
+    }
+
+    .promo__2022-white_bg {
+        padding: 24px 40px;
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .promo__dress {
+        grid-row: 3/5;
+        grid-column: 3/4;
+        border-radius: 16px;
+    }
+
+    .promo__home {
+        grid-row: 3/4;
+        grid-column: 4/5;
+        border-radius: 16px;
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .promo__toys {
+        grid-row: 4/5;
+        grid-column: 4/5;
+        border-radius: 16px;
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .promo__container {
+        grid-template-columns: 140px 140px 182px 178px;
+        grid-template-rows: 130px 126px 126px 126px 157px 157px;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .promo__book {
+        border-radius: 12px;
+        font-weight: 400px;
+        font-size: 20px;
+        line-height: 22px;
+        padding: 15px 10px;
+    }
+
+    .promo__time {
+        border-radius: 12px;
+        font-size: 16px;
+        line-height: 28px;
+        padding: 10px;
+    }
+
+    .promo__shoes {
+        border-radius: 12px;
+        font-size: 18px;
+        line-height: 17.6px;
+        padding: 10px;
+    }
+
+    .promo__shoes-big {
+        font-size: 26px;
+        line-height: 28.6px;
+    }
+
+    .promo__shoes-blue-bg {
+        padding: 16px 28px;
+        background-color: var(--promo-blue-color, #38C0EB);
+        border-radius: 20px;
+    }
+
+    .promo__boot {
+        border-radius: 12px;
+        padding: 10px;
+    }
+
+    .promo__gifts {
+        border-radius: 12px;
+        font-size: 16px;
+        line-height: 19.2px;
+        padding: 18px;
+    }
+
+    .promo__tv {
+        border-radius: 12px;
+        font-size: 16px;
+        line-height: 19.2px;
+        padding: 10px;
+    }
+
+    .promo__dress {
+        border-radius: 12px;
+        padding: 10px;
+    }
+
+    .promo__home {
+        padding: 10px;
+        border-radius: 12px;
+        font-size: 16px;
+        line-height: 19.2px;
+    }
+
+    .promo__toys {
+        border-radius: 12px;
+    }
+
+    .promo__2022 {
+        border-radius: 16px;
+        padding: 26px;
+    }
+
+    .promo__2022-white_bg {
+        padding: 22px 33px;
+        border-radius: 12px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .sale-round {
+        width: 50px;
+        height: 50px;
+        font-size: 16px;
+        line-height: 20.8px;
+    }
+}
+
+@media (max-width: 750px) {
+    .promo__container {
+        grid-template-columns: 130px 130px;
+        grid-template-rows: 120px 118px 137px 137px 118px 118px 94px 94px 123px;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .promo__book {
+        border-radius: 8px;
+        grid-row: 1/2;
+        grid-column: 1/2;
+        padding: 50px 50px 10px 10px;
+        font-weight: 800px;
+        font-size: 12px;
+        line-height: 13.2px;
+    }
+
+    .promo__book-big {
+        font-weight: 700px;
+        font-size: 16px;
+        line-height: 17.6px;
+    }
+
+    .promo__time {
+        border-radius: 8px;
+        grid-row: 1/2;
+        grid-column: 2/3;
+        padding: 10px;
+        font-size: 12px;
+        line-height: 15.6px;
+    }
+
+    .promo__shoes {
+        border-radius: 8px;
+        grid-row: 3/5;
+        grid-column: 1/3;
+        padding: 10px;
+        font-size: 12px;
+        line-height: 13.2px;
+    }
+
+    .promo__shoes-big {
+        font-size: 16px;
+        line-height: 17.6px;
+    }
+
+    .promo__shoes-blue-bg {
+        padding: 9px 25px;
+        background-color: var(--promo-blue-color, #38C0EB);
+        border-radius: 8px;
+    }
+
+
+    .promo__boot {
+        border-radius: 8px;
+        grid-row: 2/3;
+        grid-column: 1/3;
+        padding: 10px;
+        
+    }
+
+    .promo__gifts {
+        grid-row: 5/6;
+        grid-column: 1/3;
+        border-radius: 8px;
+        padding: 10px;
+        font-size: 12px;
+        line-height: 14.4px;
+    }
+
+    .promo__tv {
+        grid-row: 6/7;
+        grid-column: 1/3;
+        border-radius: 8px;
+        padding: 10px;
+        font-size: 12px;
+        line-height: 14.4px;
+    }
+  
+    .promo__dress {
+        grid-row: 7/9;
+        grid-column: 1/2;
+        border-radius: 8px;
+        padding: 10px;
+    }
+
+    .promo__home {
+        grid-row: 7/8;
+        grid-column: 2/3;
+        border-radius: 8px;
+        padding: 5px 10px 10px 8px;
+        font-size: 12px;
+        line-height: 14.4px;
+    }
+
+    .promo__toys {
+        grid-row: 8/9;
+        grid-column: 2/3;
+        border-radius: 8px;
+        padding: 10px;
+    }
+
+    .promo__2022 {
+        grid-row: 9/10;
+        grid-column: 1/3;
+        border-radius: 8px;
+        padding: 10px;
+        
+    }
+
+    .promo__2022-white_bg {
+        padding: 8px 40px;
+        border-radius: 6px;
+        font-size: 12px;
+        line-height: 14.4px;
+    }
+
+}
+
